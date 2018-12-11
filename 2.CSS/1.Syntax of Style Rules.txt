@@ -1,0 +1,8 @@
+A typical style rule in CSS has 3 Components:
+. Selector
+. Property
+. Value
+
+   Selector {Property: Value}
+   h1{color: red}
+   
