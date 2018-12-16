@@ -1,0 +1,9 @@
+SELECT LENGTH('Hello World!');
+
+SELECT CHAR_LENGTH('Hello World!');
+
+SELECT INSERT('Hello Word', 7, 5, 'World');
+
+
+
+ 

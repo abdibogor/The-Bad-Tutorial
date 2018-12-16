@@ -1,0 +1,39 @@
+Steps to follow
+
+Creating tables in SQL requires you to do three things:
+
+. Name the table
+. Define the columns
+. Mention data types of columns
+
+  Syntax of CREATE TABLE statement
+ . CREATE TABLE table_name(
+   col1 datatype, 
+   col2 datatype,
+   col3 datatype,
+ .
+ .
+ .
+ .
+ 
+col n datatype
+PRIMARY KEY(column));
+
+use test;
+
+
+
+CREATE TABLE employee
+(
+   
+   id int primary key,
+   
+   name varchar(30),
+   
+   dob datetime,
+   
+   email varchar(40)
+);
+
+
+DESC employee;

@@ -1,0 +1,35 @@
+	What are they used for?
+
+. To create complex query conditions.
+
+  Types
+. All
+. AND
+. BETWEEN
+. IN
+. LIKE
+
+   Types (contd.)
+. OR
+. IS NULL
+
+
+DESC employee;
+
+SELECT *
+FROM employee;
+
+SELECT *
+FROM employee
+WHERE age>=30 AND salary<=25000;
+
+SELECT *
+FROM employee;
+
+SELECT *
+FROM employee
+WHERE salary IS NULL;
+
+SELECT * 
+FROM employee
+WHERE name LIKE 'p%';

@@ -1,0 +1,30 @@
+	What are they used for?
+
+. To compare data present in columns to data specified in conditions.
+
+	Types
+. Equal(=)
+. Not Equal To (<>)
+. Greater Than (>)
+. Less Than (<)
+. Greather than or Equal to (>=)
+. Less than or Equal To(<=)
+
+ 
+Open MySQL Workbench
+
+DESC employee;
+
+SELECT * 
+FROM employee;
+
+SELECT *
+FROM employee 
+//WHERE salary<15000;
+WHERE salary<=29200;
+
+SELECT salary 
+FROM employee
+WHERE name='John';
+
+SELECT * FROM employee WHERE age>=24;

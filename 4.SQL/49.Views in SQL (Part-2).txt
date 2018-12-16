@@ -1,0 +1,17 @@
+INSERT INTO emp_view
+VALUES(1917, 'Craig', 'craig007@gmail.com');
+
+INSERT INTO emp_view
+Values(1978, NULL, 'notavailable@gmail.com');
+
+SELECT * FROM emp_view;
+
+SELECT * FROM employee;
+
+CREATE VIEW emp_view_new AS 
+SELECT id, name, email
+FROM employee
+WHERE name IS NOT NULL
+WITH CHECK OPTION;
+INSERT INTO emp_view_new
+VALUES(1919, NULL, 'trythis@gmail.com');

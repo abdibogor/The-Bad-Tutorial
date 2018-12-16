@@ -1,0 +1,11 @@
+SELECT *
+FROM employee
+//WHERE age IN (28,30,36);
+WHERE  age BETWEEN 28 AND 36;
+
+SELECT *
+FROM employee
+WHERE age < ALL (SELECT age FROM employee WHERE salary > 20000);
+
+SELECT age FROM employee WHERE salary > 20000;
+

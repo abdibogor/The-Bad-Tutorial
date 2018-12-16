@@ -1,0 +1,3 @@
+SELECT Distinct salary FROM employee
+ORDER BY salary;
+

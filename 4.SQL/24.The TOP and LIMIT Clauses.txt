@@ -1,0 +1,25 @@
+What is it used for?
+
+. The Top Clause is used to fetch the top N number of records through a query from a table.
+
+. Not all databases support the TOP  clause
+
+. Oracle supports ROWNUM While MYSQL uses LIMIT
+
+  Syntax of TOP Clause
+
+  SELECT TOP X column_list
+  FROM table_name
+  [WHERE condition];
+
+  Syntax of LIMIT Clause
+  SELECT column_list
+  FROM table_name
+  [WHERE condition]
+  LIMIT n;
+
+ 
+  SELECT *
+  FROM employee;
+  LIMIT 5;
+   

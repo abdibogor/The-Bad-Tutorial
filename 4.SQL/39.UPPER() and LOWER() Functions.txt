@@ -1,0 +1,6 @@
+SELECT UPPER('Hey there!');
+
+SELECT LOWER('Hey there!');
+
+SELECT UPPER(title) FROM tutorial;
+

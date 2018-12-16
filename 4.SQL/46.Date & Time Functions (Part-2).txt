@@ -1,0 +1,13 @@
+SELECT DAYNAME('2007-07-14');
+
+another way 
+
+SELECT upload_date,DAYNAME(upload_date)
+FROM tutorial;
+
+Another way 
+
+SELECT NOW();
+
+SELECT MAKEDATE(2003, 231);
+

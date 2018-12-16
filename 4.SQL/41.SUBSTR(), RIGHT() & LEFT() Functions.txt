@@ -1,0 +1,5 @@
+SELECT SUBSTR('I need a break',10,5);
+
+SELECT LEFT('I need a break',6);
+
+

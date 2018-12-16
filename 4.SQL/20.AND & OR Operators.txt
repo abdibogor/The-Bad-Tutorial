@@ -1,0 +1,12 @@
+What are they used for?
+
+. The AND and OR Operators are used to combine multiple conditions specified with the WHERE clause.
+
+. AND makes it necessary for all conditions to be true.
+
+. Or works even if any one is true.
+
+SELECT *
+FROM employee
+WHERE salary > 15000 AND age < 30;
+

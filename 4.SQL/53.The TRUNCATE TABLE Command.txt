@@ -1,0 +1,4 @@
+TRUNCATE TABLE tutorial;
+
+SELECT * FROM tutorial;
+

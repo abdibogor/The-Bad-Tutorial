@@ -1,0 +1,20 @@
+What is it used for?
+
+To Sort data fetched from a table.
+
+
+	Syntax
+ SELECT column_list
+ FROM table_name
+ [WHERE condition]
+ [ORDER BY col1, col2,...,coln][ASC/DESC];
+
+ SELECT *
+ FROM employee
+ ORDER BY name;
+
+ SELECT *
+ FROM employee
+ ORDER BY age DESC;
+
+  

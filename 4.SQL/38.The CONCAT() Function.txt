@@ -1,0 +1,7 @@
+SELECT CONCAT('Hello', 'World!');
+
+SELECT CONCAT(title, ' belongs to ', subject) AS Tutorial
+FROM tutorial;
+
+
+

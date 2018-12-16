@@ -1,0 +1,14 @@
+	What is it used for?
+. The delete Query is used to delete records from a table.
+
+. Like UPDATE, the DELETE Query is also mostly used with the WHERE Clause.
+
+ Syntax
+Delete FROM table_name
+[WHERE condition];
+
+SELECT *
+FROM employee;
+
+DELETE FROM employee
+WHERE id=1917;

@@ -1,0 +1,30 @@
+What is a table?
+. A table is a database object is composed or rows and columns and contains related(relation) data.
+. A table is created in SQL using the "create table" command.
+
+What is a field?
+. A Field is a column in a table that is supposed to provide specific information about all the records in the table.
+Un champ est une colonne d'une table censée(moodayay) fournir des informations spécifiques sur tous les enregistrements de la table.
+
+. In the table in the previous slide Rank(riix Rank), Name and Age are Fields.
+
+What is a record?
+
+. A record is a row in a table.
+Diiwaanka waa mid isku mid ah miiska.
+. The table seen earlier has ten records or ten rows.
+
+. It is also know as "horizontal entity of a table."
+
+What is a column?
+A column is a vertical in a table that contains information associated with a specified filed.
+
+What is a Null Value?
+
+. Null Value is NO VALUE.
+La valeur nulle est AUCUNE VALEUR.
+. It is not a space or zero, it is NOTHING!
+. While inserting data in a table if you do not provide value for a cell, the cell is said to contain Null Value.
+
+
+

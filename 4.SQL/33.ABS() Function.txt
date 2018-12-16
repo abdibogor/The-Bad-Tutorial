@@ -1,0 +1,10 @@
+SELECT ABS(-15);
+
+another
+
+SELECT t.title, 
+ABS(ti.likes-ti.dislikes) AS 'DIfference of likes and Dislikes'
+FROM tutorial AS t
+JOIN Tutorial_info AS ti
+ON t.id=ti.tutorial_id;
+

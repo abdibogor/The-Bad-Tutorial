@@ -1,0 +1,35 @@
+What ot use?
+
+. The INSERT Query is used to insert data in a table.
+
+. Using INSERT Query you can add data into a table one row at a time.
+
+ 
+Options with INSERT Query
+
+. Specify the columns in which data is to be stored.
+
+. Do not specify columns.
+(in this case you would have to make sure that the order in which data is placed in the INSERT statement is the same as the order in which the target Fields exist in the table.)
+
+
+  Syntax (Type-1)
+. INSERT INTO table_name(col1, col2,...,col n)
+  VALUES(val1, val2,...,val n)
+
+   Syntax (Type-2)
+. INSERT INTO table_name
+  VALUES(val1, val2,...,val n)
+
+  DESC employee;
+ 
+  INSERT INTO employee (id, name, dob, email)
+  VALUES (1901, 'Madhur', '1989-11-20 11:55:00', 'madhur.bhatia@hotmail.com');
+  
+  SELECT * FROM employee;
+
+  INSERT INTO employee
+  VALUES (2000, 'ABC', '2013-10-08  12:54:11', 'abc@gmail.com');
+  
+SELECT * FROM employee;
+  

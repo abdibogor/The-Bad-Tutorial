@@ -1,0 +1,1 @@
+SELECT TRIM(' I have got too much space on either side ');

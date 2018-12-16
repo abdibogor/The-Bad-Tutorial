@@ -1,0 +1,22 @@
+What is it used for?
+
+. To include a condition while fetching data from tables.
+
+. It is also used to join mulitiple tables.
+
+. Not only used with SELECT statement, also used with UPDATE and DELETE queries.
+
+
+Syntax
+
+SELECT column_list
+FROM table_name
+[WHERE condition];
+
+SELECT *
+FROM employee
+WHERE age > 25;
+
+SELECT *
+FROM employee
+WHERE name = 'Kurt';

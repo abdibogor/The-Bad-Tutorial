@@ -1,0 +1,28 @@
+What is a DBMS?
+
+. Database Management System
+. It's a software through which we execute SQL queries
+. Oracle, MySQL, Microsoft sql server are popular Database Management Systems
+
+What is a RDBMS?
+
+. A DBMS that's based on the Relational Model
+. In the relationel mode, data is organized in tables
+. A table is structure that is composed of rows and columns
+
+What is MySQL?
+. An DBMS developed in by some Swedish company.
+. It's an open source DBMS and you can use it for free!
+. Runs on various platforms, easy to use, keeps data safe and offers great performance results.
+
+
+after that
+
+write in search google
+MySQL Downloads and install
+
+MySQL Installer  execute d'installer le logiciel
+Choosing a Setup Type = Full = Next = 
+ 
+Installation
+Choose Visual code 

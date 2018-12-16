@@ -1,0 +1,7 @@
+SELECT t.subject, SUM(ti.views) AS 'Total Views',
+SUM(ti.likes) AS 'Total Likes'
+FROM tutorial AS t
+JOIN tutorial_info AS ti
+ON t.id=ti.tutorial_id
+GROUP BY t.subject;
+

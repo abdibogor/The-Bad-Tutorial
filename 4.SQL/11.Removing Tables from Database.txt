@@ -1,0 +1,14 @@
+What to use?
+
+.The DROP TABLE command is used to remove a table and all its contents permanently form a database.
+
+. You have to be careful while using this command.
+
+How to confirm?
+
+. To confirm whether(qu'il s'agisse || haddii) the table has been removed or not, we can use two commands:
+1. SHOW TABLES;
+2. DESC table_name;
+
+DROP TABLE emp_info;
+DESC emp_info;

@@ -1,0 +1,32 @@
+  Populating One Table Using Another
+
+   What does this mean?
+
+. You can put data present in one table into another table using the INSERT Query.
+
+. The second table needs to have Fields that can be used populate the first table i.e the tables must be compatible.
+
+ 	Syntax
+
+. INSERT INTO first_table_name[col1, col2,...,col n]
+  SELECT col 1, col 2,...,col n
+  FROM second_table_name
+  [WHERE condition];
+
+
+//SHOW TABLES;
+
+DESC employee;
+
+DESC emp_info;
+
+SELECT * FROM  emp_info;
+
+SELET * FROM employee;
+
+INSERT INTO emp_info (id, name, dob, email)
+SELECT id, name, dob, email
+FROM employee;
+
+SELECT * FROM emp_info;
+

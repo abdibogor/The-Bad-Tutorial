@@ -1,0 +1,11 @@
+SELECT 5 DIV 2;
+
+SELECT 5 MOD 2;
+
+SELECT duration FROM tutorial;
+
+SELECT title, duration DIV 1 AS minutes,
+ROUND(duration *60 MOD 60) AS seconds 
+FROM tutorial;
+
+

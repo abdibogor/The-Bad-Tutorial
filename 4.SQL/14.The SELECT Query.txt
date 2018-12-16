@@ -1,0 +1,15 @@
+ What is it used for?
+
+. It's used to get data from tables in a database.
+. One of the most important commands in SQL.
+
+     Syntax
+SELECT col1, col2,col3,...,coln
+FROM table_name;
+
+describe employee;
+SELECT name, email
+FROM employee;
+
+SELECT * 
+FROM employee;

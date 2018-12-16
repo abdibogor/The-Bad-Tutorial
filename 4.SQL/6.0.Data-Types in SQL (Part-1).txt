@@ -1,0 +1,9 @@
+What's up with Data-Types?
+
+. A data-type is a property that specifies the type(nooca) of data you can put in your table.
+Un type de données est une propriété qui spécifie le type de données que vous pouvez mettre dans votre table.
+
+. Each field has a data-type and all values(qiimaha) for a field have the same data-type.
+. Chaque champ a un type de données et toutes les valeurs d'un champ ont le même type de données.
+
+

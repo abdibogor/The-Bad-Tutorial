@@ -1,0 +1,28 @@
+	constraints(caqabadaha)
+
+Types of Constraints
+
+. Not Null
+. Default
+. Unique
+. Primary Key
+. Foreign Key
+. Check Constraint
+
+Not Null Constraint
+If you want to make sure that a field gets some value for every row in the table, apply the not null constraint() to it.
+
+
+	Default Constraint
+If while populating a table you miss giving a column some value, the default value will be used.
+Si, lors du remplissage d'une table, vous manquez une valeur à une colonne, la valeur par défaut sera utilisée.
+
+       Unique Constraint
+. Unique Constraint(Dhibaatada) Makes sure that all values entered for the field on which the constraint is applied are different.(est appliqué sont différents)
+
+
+     Primary Key Constraint
+. Noll Null + Unique
+. Some value would have to be provided in each row and all the values enterred must be different.
+
+

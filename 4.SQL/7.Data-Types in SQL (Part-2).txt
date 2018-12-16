@@ -1,0 +1,37 @@
+For Numeric Fields
+
+. Bigint(really big values!)
+. Int(big values)
+. Smallint(-32,768 to 32,767)
+. Tinyint(0 to 255)
+
+ (Contd.)
+
+. Decimal(m,d)
+. Numeric (Same as Decimal)
+. Float(m,d)
+  For Float data type, display length(m) and number of decimals(d) are optional
+
+   Date and Time Data Types
+
+. Datetime(YYY-MM-DD HH:MM:SS)
+. Date(YYY-MM-DD)
+. Time(HH:MM:SS)
+. Year(YYY)
+
+   Character Data Types
+
+. Char(m)
+. Varchar(m)
+. Text(To store large amount of text)
+Texte (pour stocker une grande quantité de texte)
+
+   For Storing Images
+
+. Blob (Binary Large Object)
+
+
+
+
+
+   

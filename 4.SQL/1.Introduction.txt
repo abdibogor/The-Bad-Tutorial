@@ -1,0 +1,31 @@
+.SQL stands for Structured Query Language
+.It was developped in the 80's to handle databases
+.LOt of people use it.
+
+WHY should you learn this thing?
+
+. It's fun to learn and fun to use!
+. Any organization that deals with large amounts of data, uses some DBMS
+(Toute organisation qui traite de grandes quantités de données)
+. If you plan to have a website, you HAVE TO master this thing!
+
+About the course
+
+. I hate making PowerPoint presentations
+. We are goind to start with the basics and then see some heavy stuff
+. It's going to be long as there is a lot to cover
+
+What do you need to know?
+
+. Nothing!
+. No text books required
+. Just follow along, I'll try not to bore you
+
+What do you need?
+
+. You need to have some DBMS installed on your Pc
+. We are going to use MySql
+. We are going to learn ANSI SQL so you may work with other systems too
+
+
+

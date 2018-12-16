@@ -1,0 +1,5 @@
+SELECT title,AS Title, upload_date AS 'Upload Date', duration AS Length
+FROM tutorial;
+
+
+

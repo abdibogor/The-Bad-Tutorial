@@ -1,0 +1,15 @@
+SELECT * FROM tutorial_info;
+
+Second example;
+
+SELECT t.id, t.title, t.duration, 
+ti.views, ti.likes, ti.shares
+FROM tutorial AS t
+Join tutorial_info AS ti
+ON t.id=ti.tutorial_id;
+
+Another way
+SELECT t.id, t.title, t.duration, 
+ti.views, ti.likes, ti.shares
+FROM tutorial AS t, tutorial_info AS ti 
+WHERE t.id=ti.tutorial_id;

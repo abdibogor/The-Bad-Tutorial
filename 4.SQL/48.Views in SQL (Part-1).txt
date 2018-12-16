@@ -1,0 +1,9 @@
+SELECT * FROM employee;
+
+CREATE VIEW emp_view AS 
+SELECT id, name, email
+FROM employee
+WHERE name is NOT NULL;
+
+SELECT * FROM emp_view;
+

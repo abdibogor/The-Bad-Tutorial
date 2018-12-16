@@ -1,0 +1,9 @@
+SELECT ROUND(54.783, 1);
+
+SELECT t.subject, AVG(ti.likes))
+AS 'The Average number of Likes rounded off to the nearest decimal point'
+FROM tutoriaal AS t
+JOIN tutorial_info As ti
+On t.id=tutorial_id
+GROUP BY t.subject;
+

@@ -1,0 +1,23 @@
+What are operators?
+
+. Symbols(+, -,*,/,<,>,=)
+. Generally used with the WHERE Clause
+. Used to limit the number of rows obtained in the output
+
+ Arithmetic Operators
+. Addition (+)
+. Soustraction(-)
+. Multiplication(*)
+. Division(/)
+. Modular Division (%)
+
+execute
+MySQL 5.5 Command Line Client
+SELECT 5 + 10;
+
+SELECT 5 * 10
+
+SELECT 10 / 5
+
+SELECT 10 % 3
+

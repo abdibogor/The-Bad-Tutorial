@@ -1,0 +1,27 @@
+ What is it used for?
+
+. To arrange identical data in groups.
+
+. Used with the SELECT query
+
+. GROUP BY must always follow the WHERE clause and must precede the ORDER BY Clause.
+
+  
+   Syntax
+ SELECT column-list
+ FROM table_name
+ WHERE condition
+ [GROUP BY column]
+ [ORDER BY column];
+
+ 
+  DESCRIBE tutorial;
+  
+ SELECT *
+ FROM tutorial;
+
+  SELECT subject, COUNT(*)
+  FROM tutorial;
+  GROUP BY subject;
+
+  

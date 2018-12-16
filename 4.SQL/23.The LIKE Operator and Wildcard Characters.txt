@@ -1,0 +1,36 @@
+	What is it used for?
+
+. Used to compare a value to similar values in a table in the database.
+
+. Used with Wildcard characters.
+
+
+    Wildcard Characters
+
+. % (Percentage Symbol)
+ Substitution for zero, one or many characters
+
+. _(Underscore Character)
+ Stands for one character or number
+
+  Syntax
+ SELECT column_list
+ FROM table_name
+ [WHERE col LIKE '_XXXX%'];
+
+  SELECT *
+  FROM employee;
+
+  SELECT *
+  FROM employee
+  WHERE email LIKE '%hotmail%';
+
+  SELECT *
+  FROM employee
+  WHERE age LIKE '2_';
+
+  SELECT *
+  FROM employee
+  WHERE name LIKE '_o%';
+
+  

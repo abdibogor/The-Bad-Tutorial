@@ -1,0 +1,11 @@
+SELECT * FROM employee;
+
+SELECT MAX(salary) FROM employee;
+
+SELECT id, name FROM employee
+//WHERE salary=22750;
+
+WHERE salary=MAX(salary)
+
+WHERE salary=(SELECT MAX(salary) FROM employee);
+

@@ -1,0 +1,4 @@
+SELECT REPEAT('Good Morning!', 10);
+
+SELECT REPLACE('GOOD Morning!', 'Morning', 'Night');
+

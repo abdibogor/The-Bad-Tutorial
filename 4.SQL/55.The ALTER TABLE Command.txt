@@ -1,0 +1,15 @@
+ALTER TABLE employee ADD city CHAR(20);
+
+SELECT * FROM employee;
+
+ALTER TABLE employee DROP city;
+
+
+Another way 
+
+ALTER TABLE employee ADD city CHAR(20);
+
+DESCRIBE employee;
+
+ALTER TABLE employee MODIFY name CHAR(30) NOT NULL;
+

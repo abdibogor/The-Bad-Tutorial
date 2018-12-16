@@ -1,0 +1,10 @@
+SELECT COUNT(*) FROM employee;
+WHERE age>25;
+
+SELECT * FROM employee;
+
+
+SELECT Max(age) FROM employee;
+
+SELECT MIN(age) FROM employee;
+

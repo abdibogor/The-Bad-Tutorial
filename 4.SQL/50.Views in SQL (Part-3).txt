@@ -1,0 +1,16 @@
+UPDATE emp_view
+SET name='BOND'
+WHERE id=1917;
+
+SELECT * FROM emp_view;
+
+DELETE FROM emp_view
+WHERE id=1917;
+
+
+another way 
+
+DROP VIEW emp_view;
+
+SELECT * FROM emp_view;
+
