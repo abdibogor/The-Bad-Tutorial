@@ -1,0 +1,4 @@
+open start menu
+python(command line)
+
+print("Hello Youtubers!")
