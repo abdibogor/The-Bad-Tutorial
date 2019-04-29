@@ -1,0 +1,5 @@
+calendar
+1994= year
+2=maxlength occupes
+1=each week
+10=ten character
