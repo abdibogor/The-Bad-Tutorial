@@ -1,0 +1,3 @@
+import os
+os.rename("C:\\Users\\Madhur\\Desktop\\test.txt","C:\\Users\\Madhur\\Desktop\\new.txt")
+os.remove("C:\\Users\\Madhur\\Desktop\\new.txt")
