@@ -1,0 +1,17 @@
+mysql connector for python
+
+import mysql.connector
+conn=mysql.connector.connect(user='root',password='madhur', host='localhost', database='test')
+mycursor=conn.cursor()
+mycursor.execute("CREATE DATABASE python")
+mycursor.execute("USE python")
+mycursor.execute("""CREATE TABLE customer
+(
+id int primary key,
+name varchar (30)),
+email varchar (30),
+city varchar (25),
+age int,
+gender char(1),
+last_visit date) """)
+

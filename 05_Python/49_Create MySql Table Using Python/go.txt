@@ -1,0 +1,6 @@
+you can go to MySQL Workbench
+
+python
+tables
+duble click customer
+DESC customer

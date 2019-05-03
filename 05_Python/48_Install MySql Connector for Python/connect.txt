@@ -1,0 +1,10 @@
+mysql connector for python
+
+import mysql.connector
+conn=mysql.connector.connect(user='root',password='madhur', host='localhost', database='test')
+mycursor=conn.cursor()
+mycursor.execute("SHOW TABLES")
+print(mycursor.fectchall())
+mycursor.execute("SHOW VARIABLES LIKE %version%")
+mycursor.execute("SHOW VARIABLES LIKE '%version%'")
+print(mycursor.fetchall())
