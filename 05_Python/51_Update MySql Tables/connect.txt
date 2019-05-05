@@ -1,0 +1,9 @@
+mysql connector for python
+
+import mysql.connector
+conn=mysql.connector.connect(user='root',password='madhur', host='localhost', database='test')
+mycursor=conn.cursor()
+mycursor.execute("UPDATE customer SET age=24 WHERE id=2")
+conn.commit()
+mycursor.execute("DELETE FROM customer WHERE id=3")
+conn.commit()
